@@ -1,0 +1,51 @@
+:root {
+  --text-color: #ffffff;
+  --gold: #ffd700;
+}
+
+.body {
+  background-image: linear-gradient(to right, #3ea1db, #5d34ec);
+}
+
+.header {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.store {
+  color: var(--gold);
+}
+
+.container__title{
+  text-align: center;
+  color: var(--text-color);
+}
+
+.card {
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0.25rem 0.5rem white;
+}
+
+.over-flow-h {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: all 0.5s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.card-subtitle {
+  color: var(--gold);
+}
+
+.footer {
+  text-align: center;
+  color: var(--text-color);
+}
